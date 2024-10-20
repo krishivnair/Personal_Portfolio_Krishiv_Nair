@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    border: 10px;
+    padding: 0px;
+    /*background-color: black;*/
+}
+
+nav,
+.top-panel-links {
+    display: flex;
+    /*background-color: black;*/
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Russo One", sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-image: url('Media/background-3883181_1280.jpg');
+}
+
+.top-panel {
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    font-size: 25px;
+    background-color: black;
+}
+
+.logo {
+    color: whitesmoke;
+    font: "Russo One", sans-serif;
+    font-size: 2rem;
+    padding: 10px 5%;
+}
+
+.top-panel-links {
+    list-style: none;
+    gap: 3rem;
+    padding: 10px 90px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: dotted;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-underline-offset: 1rem;
+    ;
+}
+
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+    text-underline-offset: 1rem;
+    ;
+}
+
+.first-section {
+    display: flex;
+    gap: 100px;
+}
+
+.left-section {
+    margin: 100px 90px;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.right-section {}
+
+.white {
+    color: white;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.first-section div {
+    width: 100%;
+}
+
+.tag-line {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.button-look {
+    font-weight: bold;
+    font-size: 1rem;
+    width: 10rem;
+    padding: 1rem;
+    border-color: navy;
+    background-color: cyan;
+    border-radius: 35px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.button-look:hover {
+    color: black;
+    border-color: navy;
+    background-color: white;
+    
+}
+
+.tag-line {
+    height: 3rem;
+}
+
+.resume {
+    height: 6rem;
+}
+
+.line-colour {
+    color: cyan;
+}
+
+/*Section 2 coding*/
+
+#about-me {
+    color: white;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.quote {
+    font-size: 20px;
+    margin-top: 1.6rem;
+    color: white;
+    text-align: center;
+    
+}
+
+.second-section {
+    display: flex;
+    gap: 100px;
+
+}
+
+.ss-left {
+    margin: 0.5rem 90px;
+
+}
+
+.ss-right {
+    margin: 80px 1rem;
+    text-align: left;
+    width: 45%;
+    color: white;
+
+}
+
+ss-para {
+    font-weight: bold;
+}
+
+#my-projects {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+.secfooter {
+    display: flex;
+    background-color: rgb(64, 141, 189);
+    gap: 10px;
+}
+
+.footer-left {
+    color: white;
+    margin: 20px 80px;
+
+    font-size: 1rem;
+}
+
+.footer-right {
+    color: white;
+   margin: 20px 0px;
+    font-size: 0.8rem;
+}
+
+.decl{
+    color: white;
+    margin: 20px 80px;
+}
+.black {
+    color: black;
+}
+
+.secline{
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+.list {
+    margin: 40px 500px;
+}
+
+.proj-sp{
+    
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj-sp img{
+    margin-top: 2rem;
+    align-items: center;
+    border-radius:  10px;
+    display: block;
+}
+
+.description{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.dip{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.good{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.good img{
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    display: block;
+}
+
+.layer{
+    color: white;
+    font-size: 1rem;
+}
+
+.contact-heading{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.sorry{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.msg {
+    color: cyan;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5.5rem;
+}
